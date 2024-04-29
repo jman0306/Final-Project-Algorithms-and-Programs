@@ -1,4 +1,3 @@
-```java
 import java.util.ArrayList;
 
 /*Juan Manuel Ambriz N��ez 195554
@@ -182,4 +181,3 @@ public class ManejadorArreglos {
 		return a;
 	}
 }
-```
