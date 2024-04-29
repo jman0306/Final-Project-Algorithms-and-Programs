@@ -1,0 +1,16 @@
+5
+Juan 
+M
+0
+Maria
+F
+1
+Victor
+M
+2
+Roberto
+M
+3
+Daniela
+F
+4
