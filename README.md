@@ -1,3 +1,22 @@
 # Final-Project-Algorithms-and-Programs
 ## Party planner
-El programa contiene en total ocho clases mas un ejecutable, en el que se prueba la funcionalidad de la clase Fiesta y que no está incluido en la funcionalidad final del programa. Las clases básicas del programa son Persona y Mesero que son incluidos en una matriz y un arreglo que tiene como atributo la clase de Fiesta. En la clase fiesta para dar de alta y de baja un mesero se utiliza la clase Manejador Arreglos Genérico y para identificar el mayor de la mesa se utiliza la clase Manejador Matrices Genérico. Por último, se realizo la clase Vista Fiesta que junto con la clase Controlador Vista Fiesta y Ejecutable Vista Fiesta, generan una interfaz grafica funcional que resuelve el problema.
+The program comprises a total of eight classes plus an executable, in which the functionality of the Fiesta class is tested but is not included in the final functionality of the program. The basic classes of the program are Person and Waiter, which are included in an array and a matrix whose attribute is the Fiesta class. In the Fiesta class, the Generic Array Handler class is used to add and remove a waiter, and the Generic Matrix Handler class is used to identify the largest one at the table. Finally, the Fiesta View class was created, which along with the Fiesta View Controller class and the Fiesta View Executable class, generates a functional graphical interface that solves the problem.
+
+| Atributo     | Tipo    |
+|--------------|---------|
+| nombre       | String  |
+| genero       | char    |
+| mesa         | int     |
+
+| Método                      | Tipo de retorno | Parámetros          |
+|-----------------------------|-----------------|---------------------|
+| Mesero(String, char, int)   | -               | nombre: String, genero: char, mesa: int |
+| getMesa()                   | int             | -                   |
+| getNombre()                 | String          | -                   |
+| getGenero()                 | char            | -                   |
+| setMesa(mesa: int)          | void            | mesa: int           |
+| hasCode()                   | int             | -                   |
+| equals(obj: Object)         | boolean         | obj: Object         |
+| compareTo(otro: Mesero)     | int             | otro: Mesero        |
+| toString()                  | String          | -                   |
+
